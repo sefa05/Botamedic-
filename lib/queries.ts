@@ -1,5 +1,5 @@
 import { cache } from 'react';
-import { createSupabaseServerClient } from './supabaseClient';
+import { createSupabaseServerClient } from './supabaseServerClient';
 
 export const getRestaurant = cache(async (restaurantId: string) => {
   const supabase = createSupabaseServerClient();

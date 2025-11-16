@@ -1,4 +1,4 @@
-import { createSupabaseServerClient } from '@/lib/supabaseClient';
+import { createSupabaseServerClient } from '@/lib/supabaseServerClient';
 import { redirect } from 'next/navigation';
 import { OrderStatusBadge } from '@/components/admin/order-status-badge';
 
